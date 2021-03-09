@@ -1,19 +1,19 @@
 # mygtu
 
-```text
 download old gtu papers 
 with async downloader.
-```
 
-# installation guide.
-```url
+
+# Installation Guide.
+(recommanded.)
+```text
 pip install mygtu
 ```
-```url
+```text
 pip3 install --no-cache git+https://github.com/batatavadaX/testgtu.git
 ```
 
-# basic example.
+# Basic Example.
 
 ```py
 # default values are set to BE IC.
@@ -33,7 +33,7 @@ asyncio.run(main())
 
 
 
-# another example.
+# Another Example.
 ```py
 # you can pass your own values as json.
 
@@ -54,7 +54,7 @@ async def main():
 asyncio.run(main())
 ```
 
-# json example
+# Json Example.
 
 ```json
 {
