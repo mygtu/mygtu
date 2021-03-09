@@ -8,7 +8,7 @@ setuptools.setup(
     name="mygtu",
     version="0.1.0",
     author="Dhruv Maaniya (@midnightmadwalk)",
-    author_email="<t.me/midnightmadwalk>",
+    author_email="midnightmadwalk@gmail.com",
     description="pyhton interaction with gtu website.",
     long_description=long_description,
     long_description_content_type="text/markdown",
