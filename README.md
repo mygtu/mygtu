@@ -5,7 +5,7 @@ with async downloader.
 
 
 # Installation Guide.
-(recommanded.)
+(recommended.)
 ```text
 pip install mygtu
 ```
