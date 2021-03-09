@@ -1,4 +1,4 @@
-__version__ = '0.1.9'
+__version__ = '0.1.1'
 __info__ = 'following software publish under MIT License [t.me/midnightmadwalk]'
 __logo__ = '''
   __  __        ____ _         
