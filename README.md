@@ -10,7 +10,7 @@ with async downloader.
 pip install mygtu
 ```
 ```text
-pip3 install --no-cache git+https://github.com/mygtu/mygtugit
+pip3 install --no-cache git+https://github.com/mygtu/mygtu.git
 ```
 
 # Basic Example.
