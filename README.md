@@ -2,7 +2,7 @@
 
 download old gtu papers 
 with async downloader.
-
+(more interactions coming soon.)
 
 # Installation Guide.
 (recommended.)
@@ -78,13 +78,14 @@ gf = logic(path="path/to_json.json")
 
 # Note.
 
-=>i was writing this and same day gtu declared
+=> i was writing this and same day gtu declared
 exam time-table so i am publishing half work,
 it may be unstable because its not tested.
 
-=>this software is not developed by gtu.
+=> this software is not developed by gtu.
 
 # todo.
 => remove unused imports.
+
 => more interactions with gtu website.
 (currently supports only old paper download.)
