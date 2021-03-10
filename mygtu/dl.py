@@ -53,7 +53,7 @@ async def main(urls):
 #    [{time.current(strf="%m/%d/%Y, %H:%M:%S")}]
 #    '''
 #    async with aiofiles.open(PATH + "/info.txt", "w") as inf:
-        await inf.write(info)
+#        await inf.write(info)
 
 async def download(urls):
     await main((urls))
