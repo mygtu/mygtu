@@ -83,3 +83,8 @@ exam time-table so i am publishing half work,
 it may be unstable because its not tested.
 
 =>this software is not developed by gtu.
+
+# todo.
+=> remove unused imports.
+=> more interactions with gtu website.
+(currently supports only old paper download.)
