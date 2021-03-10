@@ -5,12 +5,12 @@ with async downloader.
 
 
 # Installation Guide.
-(recommanded.)
+(recommended.)
 ```text
 pip install mygtu
 ```
 ```text
-pip3 install --no-cache git+https://github.com/batatavadaX/testgtu.git
+pip3 install --no-cache git+https://github.com/mygtu/mygtu.git
 ```
 
 # Basic Example.
