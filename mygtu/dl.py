@@ -40,19 +40,19 @@ async def main(urls):
         for i in tqdm(range(100), unit="KB"):
             pass
 
-    await write_info()
+    # await write_info(url)
     print(f"downloaded in {(total_url() * fin)} at {PATH}")
 
-async def write_info(url):
-    info = f'''
-    {__logo__}
-    Total Files : {total_url()} 
-    Path : {check_path(url)}
-    info : {__info__}
-    version: {__version__}
-    [{time.current(strf="%m/%d/%Y, %H:%M:%S")}]
-    '''
-    async with aiofiles.open(PATH + "/info.txt", "w") as inf:
+# async def write_info(url):
+#    info = f'''
+#    {__logo__}
+#    Total Files : {total_url()} 
+#    Path : {check_path(url)}
+#    info : {__info__}
+#    version: {__version__}
+#    [{time.current(strf="%m/%d/%Y, %H:%M:%S")}]
+#    '''
+#    async with aiofiles.open(PATH + "/info.txt", "w") as inf:
         await inf.write(info)
 
 async def download(urls):
