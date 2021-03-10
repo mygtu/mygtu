@@ -6,7 +6,7 @@ with open("README.md", "r") as setup:
 
 setuptools.setup(
     name="mygtu",
-    version="0.1.0",
+    version="0.1.1",
     author="Dhruv Maaniya (@midnightmadwalk)",
     author_email="midnightmadwalk@gmail.com",
     description="pyhton interaction with gtu website.",
@@ -16,7 +16,7 @@ setuptools.setup(
     license="MIT",
     packages=setuptools.find_packages(),
     include_package_data=True,
-    install_requires=['datetime', 'pytz', 'ujson', 'aiofiles', 'aiohttp'],
+    install_requires=['datetime', 'pytz', 'ujson', 'aiofiles', 'aiohttp', 'tqdm'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

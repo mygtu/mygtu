@@ -3,3 +3,4 @@ pytz
 ujson
 aiohttp
 aiofiles
+tqdm

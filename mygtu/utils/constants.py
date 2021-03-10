@@ -1,1 +1,1 @@
-PATH = "downloads/gtu/"
+PATH = "downloads/gtu"

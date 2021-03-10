@@ -1,5 +1,5 @@
 __version__ = '0.1.1'
-__info__ = 'following software publish under MIT License [t.me/midnightmadwalk]'
+__info__ = 'old papers'
 __logo__ = '''
   __  __        ____ _         
  |  \/  |_   _ / ___| |_ _   _ 
