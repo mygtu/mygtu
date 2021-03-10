@@ -5,5 +5,5 @@ from .time import time
 from .year_list import ylist
 
 if not os.path.exists(PATH):
-    os.mkdir(PATH)
+    os.makedirs(PATH)
     

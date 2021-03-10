@@ -14,7 +14,7 @@ def total_url(urls):
 
 def check_path(url):
     if "uploads" in url:
-        path = PATH + "/" + url.split("/uploads/")[1].replace("/", "-")
+        path = PATH + url.split("/uploads/")[1].replace("/", "-")
     else:
         path = url.split("//")[1].replace("/", "-")
     return str(path)
@@ -29,10 +29,10 @@ async def fetch(url):
         return await r.read()
 
 async def main(urls):
-    for url in urls:
-        print(f'''
+    print(f'''
           {__logo__}
           starting download...''')
+    for url in urls:
         start = datetime.now()
         await downloader(url),
         end = datetime.now()
@@ -40,21 +40,20 @@ async def main(urls):
         for i in tqdm(range(100), unit="KB"):
             pass
 
-    # await write_info(url)
-    print(f"downloaded in {(total_url() * fin)} at {PATH}")
+    await write_info(url)
+    print(f"downloaded in {(total_url(urls) * fin)} at {PATH}")
 
-# async def write_info(url):
-#    info = f'''
-#    {__logo__}
-#    Total Files : {total_url()} 
-#    Path : {check_path(url)}
-#    info : {__info__}
-#    version: {__version__}
-#    [{time.current(strf="%m/%d/%Y, %H:%M:%S")}]
-#    '''
-#    async with aiofiles.open(PATH + "/info.txt", "w") as inf:
+async def write_info(url):
+    info = f'''
+    {__logo__}
+    Total Files : {total_url()} 
+    Path : {check_path(url)}
+    info : {__info__}
+    version: {__version__}
+    [{time.current(strf="%m/%d/%Y, %H:%M:%S")}]
+    '''
+    async with aiofiles.open(PATH + "info.txt", "w") as inf:
         await inf.write(info)
-
 async def download(urls):
     await main((urls))
 
