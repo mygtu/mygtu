@@ -1,4 +1,4 @@
-__version__ = '0.1.4'
+__version__ = '0.1.2'
 __info__ = 'old papers'
 __logo__ = '''
   __  __        ____ _         
