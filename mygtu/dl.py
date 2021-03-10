@@ -40,3 +40,6 @@ async def main(urls):
         for i in tqdm(range(100), unit="KB"):
             pass
     print(f"downloaded in {(total_url(urls) * fin)} at {PATH}")
+
+async def download(urls):
+    await main((urls))
